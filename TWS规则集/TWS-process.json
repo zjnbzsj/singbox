@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "process_name": ["tws.exe"]
+    },
+    {
+      "process_path_regex": [
+        "(?i)^.*\\\\AppData\\\\Local\\\\JxBrowser\\\\.*\\\\chromium\\.exe$"
+      ]
+    }
+  ]
+}
